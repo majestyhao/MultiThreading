@@ -17,4 +17,17 @@
         android:layout_marginTop="85dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <com.mopub.mobileads.MoPubView
+        android:id="@+id/adview"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        />
 </RelativeLayout>
